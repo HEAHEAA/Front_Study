@@ -36,9 +36,11 @@
 </head>
 
 <body>
+<!-- 메뉴화면1 -->
 <nav id = "topmenu">
     <ul>
-        <li><a class="menuLink" href="#">Menu1</a></li>
+        <li><a class="menuLink" href="#">Menu1</a>
+        </li>
         <li><a class="menuLink" href="#">Menu2</a></li>
         <li><a class="menuLink" href="#">Menu3</a></li>
         <li><a class="menuLink" href="#">Menu4</a></li>
@@ -46,7 +48,7 @@
     </ul>
 
 </nav>
-
+<!--메인 헤드라인-->
 <form id="headinput" action="#" method="get">
     <fieldset>
 
@@ -54,12 +56,11 @@
         <div  class="headLine"> <h2>HomePage Test</h2> </div>
         </legend>
 
-        <p>아이디 : <input type="text" name="user_id"></p>
-        <p>패스워드 : <input type="password" name="user_pwd"></p>
-        <p>주소 : <input type="password" name="주소찾기" size="60px"></p>
+        <p>아이디 : <input type="text" name="user_id"> 패스워드 : <input type="password" name="user_pwd"></p>
+        <p>주소 : <input type="text" name="주소찾기" size="60px"></p>
 
         <p>주민번호
-            <input type="text" name="num01" size="10px" maxlength="6px"> - <input type="password" name="num02" size="10px" maxlength="7px">
+            <input type="text" name="num01" size="20px" maxlength="6px"> - <input type="password" name="num02" size="20px" maxlength="7px">
         </p>
 
         <p>성별 : <input type="radio" name="gender" value="남">남성<input 
@@ -72,8 +73,9 @@
         <input type="checkbox" name="blood" value="AB형">AB형</p>
 
 
-        <P>메모 작성하기<br>
-            <textarea name="memo" cols="70px" rows="10px"></textarea><br>  
+        <P> [메모 작성하기] <br>
+            글씨색상 :  <input type="color"><br>
+            <textarea name="memo" cols="70px" rows="10px"></textarea><br>
         파일첨부하기 : <input type="file" name="file">
         </p>
 
