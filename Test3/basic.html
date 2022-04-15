@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagic제작</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul{
+            padding: 16px 0;
+        }
+        ul li{
+            display: inline-block;
+            margin: 0 5px;
+            font-size: 14px;
+            letter-spacing: -.5px;
+        }
+        form{
+            padding-top: 0;
+        }
+
+        ul li.tag-item{
+            padding: 4px 8px;
+            background-color: #777;
+            color: #fff;
+        }
+        .tag-item:hover{
+            background-color: #262626;
+            color: #fff;
+        }
+        .del-btn{
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+    </style>
+    <script src="basic.js"></script>
+</head>
+
+
+<body>
+    <div style="margin-top:40px ; margin-left: 40px;" class="content">
+        <div style="display: flex;">
+            <h1 style="width: 150px; margin-right: 30px;">입력 창</h1>
+                <input type="text" id="tag" size="20" placeholder="태그를입력하시오." />
+        </div>
+        <ul id="tag-list">
+        </ul>
+    </div>
+
+</body>
+</html>
