@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--이벤트처리 스터디-->
+
+<!-- 1. html이벤트속성-->
+<button onclick="alert('입력완료')">클릭</button>
+<input name="test" onchange="console.log(value)" />
+    
+
+<!--2. 자바스크립트 이벤트 속성-->
+<!-- <button>클릭</button> -->
+<script>
+    const buttonE1 = document.querySelector('button'); 
+    //querySelector // html 메소드 태그 가져오기위한 태그
+    buttonE1.onclick = function(event){
+        alert('입력이 완료되었습니다.');
+    }
+</script>
+
+</body>
+</html>
